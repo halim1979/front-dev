@@ -3,14 +3,19 @@
     color: white;
     width: 850px;
     height: 1100px;
-    float: right;
+    
 }
 .Logo{
     background-color: red;
     width: 200px;
-    height: 200px;  
-}
-.Banniére
-background-color:
-    width: 200px;
     height: 200px; 
+    float: left; 
+}
+.Banniére{
+    background-color: pink;
+    width: 650px;
+    height: 100px;
+    float: right;
+
+
+}

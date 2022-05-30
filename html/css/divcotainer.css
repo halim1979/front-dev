@@ -6,17 +6,16 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 
-
 }
 
-.Logo {
+.logo {
     background-color: red;
     width: 200px;
     height: 200px;
     float: left;
 }
 
-.Banniere {
+.banniere {
     background-color: pink;
     width: 650px;
     height: 100px;
@@ -32,15 +31,16 @@
 
 }
 
-.TEXTE {
+.texte {
     background-color: white;
     color: black;
     width: 850px;
-    height: 300px;
+    height: 100px;
+    float: left;
 
 }
 
-.Aside {
+.aside {
     background-color: blue;
     width: 200px;
     height: 500px;
@@ -49,18 +49,35 @@
 }
 
 .sous-texte {
+    background-color: green;
     width: 650px;
     height: 500px;
     text-align: center;
+    float: left;
     
 }
 
-.Footer {
+.footer {
     background-color: blueviolet;
     width: 850px;
     height: 300px;
+    float: left;
 
 
 }
-
-
+@media only screen and (max-width: 620px) {
+    .logo,
+    .banniere,
+    .sous-banniere,
+    .footer,
+    .aside,
+    .texte,
+    .sous-texte{
+    width: 100%;
+}
+}
+@media only screen and (min-width: 620px) and (max-width: 850px)
+ {
+    
+    
+}

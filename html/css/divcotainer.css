@@ -4,7 +4,6 @@
     width: 850px;
     height: 1100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 
 }
 
@@ -13,6 +12,13 @@
     width: 200px;
     height: 200px;
     float: left;
+   
+    
+}
+.responsive{
+    height: 200px;
+    width: 200px;
+
 }
 
 .banniere {
@@ -40,11 +46,12 @@
 
 }
 
-.aside {
+aside {
     background-color: blue;
     width: 200px;
     height: 500px;
     float: right;
+    
 
 }
 
@@ -52,8 +59,7 @@
     background-color: green;
     width: 650px;
     height: 500px;
-    text-align: center;
-    float: left;
+   float: left;
     
 }
 
@@ -63,21 +69,35 @@
     height: 300px;
     float: left;
 
-
 }
+
 @media only screen and (max-width: 620px) {
-    .logo,
+    .container,
     .banniere,
     .sous-banniere,
     .footer,
-    .aside,
     .texte,
-    .sous-texte{
-    width: 100%;
+    .sous-texte,
+     aside
+    {
+    width:100%;}
+} 
+.responsive{
+    width: 500px;
 }
-}
-@media only screen and (min-width: 620px) and (max-width: 850px)
- {
+
     
-    
+
+
+@media only screen and (min-width: 620px) and (max-width: 900px){
+    .container,
+    .banniere,
+    .sous-banniere,
+    .footer,
+    .texte,
+    .sous-texte
+
+    {
+    width:100%;}
+} 
 }

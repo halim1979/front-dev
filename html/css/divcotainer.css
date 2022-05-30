@@ -1,21 +1,66 @@
 .container {
-   background-color: green;
+    background-color: green;
     color: white;
     width: 850px;
     height: 1100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+
+
 }
-.Logo{
+
+.Logo {
     background-color: red;
     width: 200px;
-    height: 200px; 
-    float: left; 
+    height: 200px;
+    float: left;
 }
-.Banniére{
+
+.Banniere {
     background-color: pink;
     width: 650px;
     height: 100px;
     float: right;
+}
+
+.sous-banniere {
+    background-color: yellow;
+    width: 650px;
+    height: 100px;
+    float: right;
+    color: black;
+
+}
+
+.TEXTE {
+    background-color: white;
+    color: black;
+    width: 850px;
+    height: 300px;
+
+}
+
+.Aside {
+    background-color: blue;
+    width: 200px;
+    height: 500px;
+    float: right;
+
+}
+
+.sous-texte {
+    width: 650px;
+    height: 500px;
+    text-align: center;
+    
+}
+
+.Footer {
+    background-color: blueviolet;
+    width: 850px;
+    height: 300px;
 
 
 }
+
+

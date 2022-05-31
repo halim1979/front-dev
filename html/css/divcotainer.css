@@ -83,7 +83,8 @@ aside {
     width:100%;}
 } 
 .responsive{
-    width: 500px;
+    width: 620px;;
+
 }
 
     
@@ -98,6 +99,14 @@ aside {
     .sous-texte
 
     {
-    width:100%;}
-} 
-}
+    width:100%;
+    }
+    .responsive{
+        width: 840px;
+    }
+    } 
+
+    
+    h1{
+        color: brown;
+    }

@@ -9,3 +9,15 @@
     float: right;
     margin: auto 0;
 }
+#nom{
+    min-width: 100%;
+}
+#prenom{
+    min-width: 100%;
+
+}
+
+#date{
+    min-width: 100%;
+    
+}

@@ -1,23 +1,19 @@
-.img-fluid{
-    min-width: 100%;
-    
-}
-.image{
+.top{
     width: 100%;
 }
 .top2{
     float: right;
     margin: auto 0;
 }
+.img-fluid{
+    width: 100%;
+}
 #nom{
-    min-width: 100%;
+    width: 100%;
 }
 #prenom{
-    min-width: 100%;
-
+    width: 100%;
 }
-
 #date{
-    min-width: 100%;
-    
+    width: 100%;
 }

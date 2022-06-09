@@ -49,14 +49,15 @@ h3{
         color: rgb(30, 219, 39);
         font-size: 80px;
        
+       
     }
 
     .boxg{
         background: #f2f7fd;
         float: left;
         width: 100%;
-        height: 450px; 
         height: auto;
+        
         
     
     }
@@ -65,10 +66,12 @@ h3{
         background: #0c0c0c;
         /*float: left;*/
         width: 100%;
-        height:450px;
+        height: auto;
+        
+        
     }
 .image {
-    width:360px;
+   
 }
 
 

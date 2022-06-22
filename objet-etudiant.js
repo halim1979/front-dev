@@ -23,7 +23,7 @@ localStorage.clear();
 localStorage.setItem("key", JSON.stringify(pierre));
 
 let str = localStorage.getItem("key");
-console.log(str);
+console.log(str);// OPTIMIZE:
 
 
 //var x = new Boolean(true);

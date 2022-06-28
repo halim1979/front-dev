@@ -1,16 +1,5 @@
-document.getElementById("inscription").addEventListener("submit", function(e)){
-    let erreur;
-    let inputs = document.getElementsByTagName("input");
-    for (let i = 0; i < inputs.length; i++) {
-        if (!inputs[i].value) {
-            erreur = "Veuillez renseigner tous le champs";
-        }
-    }
-    if (erreur){
-        e.preventDefault();
-        document.getElementById("erreur").innerHTML = erreur;
-        return false;
-    } else{
-        alert("Formulaire envoyé !");
-    }
+function chekForm(f) {
+  alert("Je m'apelle " + f.elements["chp"].value+" "+f.elements["chp1"].value+" "+"et j'ai "+f.elements["chp2"].value+" "+"ans.");
+
+  return false;
 }

@@ -1,14 +1,8 @@
-
-
 let menu =prompt ("Bonjour, veuillez choisir une boisson: 1: Café  2: Thé  3:Chocolat");
     menu=parseInt(menu);
     
-
-        
-   
-
 switch(menu){
-    case 1 : 
+    case 1 :
     let cafe = prompt (" Café => veuillez inserer 1€.");
     cafe=parseInt(cafe);
     document.write("Vous avez insérez: " + cafe + "€");
@@ -50,4 +44,3 @@ default:
 
 
 }
-    

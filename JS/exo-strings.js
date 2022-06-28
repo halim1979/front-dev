@@ -14,3 +14,5 @@ console.log(datenew.charAt(2));
 document.write("<br/>")
 var options = {weekday: "long"}//, year: "numeric", month: "long", day: "2-digit"};
 document.write(date.toLocaleDateString("fr-FR", options));
+let aujourdhui =(date.toLocaleDateString("fr-FR", options));
+document.write(aujourdhui.toUpperCase());

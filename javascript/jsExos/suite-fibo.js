@@ -18,4 +18,4 @@ function fibonacci(nbr) {
    return nbr ? n2 : n1;
 }
 
-console.log(fibonacci(8));
+console.log(fibonacci(10));
